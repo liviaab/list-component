@@ -21,7 +21,7 @@ export default class List extends Component {
     return(
       <dl className="book-list">
         {booksList.map(book => (
-          <div key={book.id}>
+          <a key={book.id} href={book.id}><div>
             <dt>
               <h3>{book.name}</h3>
             </dt>
@@ -30,7 +30,7 @@ export default class List extends Component {
               <p>Ano: {book.year}</p>
               <p><strong>Preço: {book.price}</strong></p>
             </dd>
-          </div>
+          </div></a>
         ))}
       </dl>
     )
