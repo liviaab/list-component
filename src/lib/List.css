@@ -1,0 +1,10 @@
+h3, h5, p {
+  margin: 5px;
+}
+
+.book-list div {
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  padding: 30px;
+  margin: 10px;
+}

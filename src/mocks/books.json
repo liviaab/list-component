@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "A menina que roubava livros",
+    "author": "Markus Zusak",
+    "year": 2020,
+    "price": 55.5
+  },
+  {
+    "id": 2,
+    "name": "Domain Driven Design",
+    "author": "Eric Evans",
+    "year": 2020,
+    "price": 44.2
+  },
+  {
+    "id": 3,
+    "name": "A insustentavel leveza do ser",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Milan Kundera",
+    "year": 1990,
+    "price": 11.2
+  },
+  {
+    "id": 4,
+    "name": "O Conto da Aia",
+    "author": "Margaret Atwood",
+    "year": 1995,
+    "price": 33.2
+  },
+  {
+    "id": 5,
+    "name": "Sejamos todos feministas",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": 2020,
+    "price": 77.4
+  }
+]
