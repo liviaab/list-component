@@ -193,10 +193,10 @@ module.exports = function(webpackEnv) {
       // module chunks which are built will work in web workers as well.
       globalObject: 'this',
     },
-    externals: {
+    externals: isEnvProduction ? [{
       'react': 'React',
       'react-dom': 'ReactDOM'
-    },
+    } ]: {},
     optimization: {
       minimize: isEnvProduction,
       minimizer: [
